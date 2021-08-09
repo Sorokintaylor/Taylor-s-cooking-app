@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC18569526BD88930082AF03 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC18569426BD88930082AF03 /* NewViewController.swift */; };
 		EC273BC326B1C3AD003A5275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC273BC226B1C3AD003A5275 /* AppDelegate.swift */; };
 		EC273BC526B1C3AD003A5275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC273BC426B1C3AD003A5275 /* SceneDelegate.swift */; };
 		EC273BC726B1C3AD003A5275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC273BC626B1C3AD003A5275 /* ViewController.swift */; };
 		EC273BCA26B1C3AD003A5275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC273BC826B1C3AD003A5275 /* Main.storyboard */; };
 		EC273BCC26B1C3AE003A5275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC273BCB26B1C3AE003A5275 /* Assets.xcassets */; };
 		EC273BCF26B1C3AE003A5275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC273BCD26B1C3AE003A5275 /* LaunchScreen.storyboard */; };
+		EC273BD926B1C4B3003A5275 /* Saved.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC273BD826B1C4B3003A5275 /* Saved.swift */; };
+		EC273BDB26B3129B003A5275 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC273BDA26B3129B003A5275 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC18569426BD88930082AF03 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = SOURCE_ROOT; };
 		EC273BBF26B1C3AD003A5275 /* Taylor's cooking app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taylor's cooking app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC273BC226B1C3AD003A5275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC273BC426B1C3AD003A5275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		EC273BCB26B1C3AE003A5275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC273BCE26B1C3AE003A5275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC273BD026B1C3AE003A5275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC273BD826B1C4B3003A5275 /* Saved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saved.swift; sourceTree = "<group>"; };
+		EC273BDA26B3129B003A5275 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				EC273BC226B1C3AD003A5275 /* AppDelegate.swift */,
 				EC273BC426B1C3AD003A5275 /* SceneDelegate.swift */,
 				EC273BC626B1C3AD003A5275 /* ViewController.swift */,
+				EC273BDA26B3129B003A5275 /* Profile.swift */,
 				EC273BC826B1C3AD003A5275 /* Main.storyboard */,
+				EC18569426BD88930082AF03 /* NewViewController.swift */,
+				EC273BD826B1C4B3003A5275 /* Saved.swift */,
 				EC273BCB26B1C3AE003A5275 /* Assets.xcassets */,
 				EC273BCD26B1C3AE003A5275 /* LaunchScreen.storyboard */,
 				EC273BD026B1C3AE003A5275 /* Info.plist */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC273BC726B1C3AD003A5275 /* ViewController.swift in Sources */,
+				EC273BDB26B3129B003A5275 /* Profile.swift in Sources */,
 				EC273BC326B1C3AD003A5275 /* AppDelegate.swift in Sources */,
+				EC18569526BD88930082AF03 /* NewViewController.swift in Sources */,
 				EC273BC526B1C3AD003A5275 /* SceneDelegate.swift in Sources */,
+				EC273BD926B1C4B3003A5275 /* Saved.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
